@@ -110,5 +110,15 @@ describe('ArrayPortal', () => {
         title: 'Portal it baby!'
       }]
     });
-  })
+  });
+
+  it('doesnt edit the original used arrays', () => {
+    let inputArr = ['a','b','c'];
+    let outputArr = ['d','e'];
+    let caller = 'a';
+
+    ArrayPortal({ caller: caller, input: inputArr, output: outputArr });
+
+    expect(inputArr).to.deep.equal(['a','b','c']);
+  });
 });
