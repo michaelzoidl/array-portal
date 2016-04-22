@@ -1,6 +1,6 @@
 {
   "name": "array-portal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Make a portal between two arrays and transfer items between them",
   "main": "dist/array-portal.js",
   "scripts": {
