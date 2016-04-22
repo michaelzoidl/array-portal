@@ -1,7 +1,7 @@
 var ArrayPortal = require('./dist/array-portal').default;
 var TestArr = ['a','b','c'];
 
-suite('Swap arrays', function() {
+suite('Portal Arrays', function() {
   bench('ArrayPortal-Package', function() {
     ArrayPortal({
       caller: {
