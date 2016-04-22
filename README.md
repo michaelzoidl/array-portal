@@ -2,8 +2,8 @@
 Make a portal between two arrays and transfer items between them
 
 [![Build Status](https://travis-ci.org/michaelzoidl/array-portal.svg?branch=master)](https://travis-ci.org/michaelzoidl/array-portal)
-[![devDependency Status](https://david-dm.org/michaelzoidl/array-portal/dev-status.svg)](https://david-dm.org/michaelzoidl/babel-root-import#info=devDependencies)
-
+[![devDependency Status](https://david-dm.org/michaelzoidl/array-portal/dev-status.svg)](https://david-dm.org/michaelzoidl/array-portal#info=devDependencies)
+[![Dependency Status](https://david-dm.org/michaelzoidl/array-portal.svg)](https://david-dm.org/michaelzoidl/array-portal)
 
 ## Install
 ```
