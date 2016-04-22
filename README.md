@@ -1,5 +1,5 @@
-# Swap Array
-Swap position of two items in array without changing the state of the passed array.
+# Array Portal
+Make a portal between two arrays and transfer items between them
 
 [![Build Status](https://travis-ci.org/michaelzoidl/array-portal.svg?branch=master)](https://travis-ci.org/michaelzoidl/array-portal)
 [![devDependency Status](https://david-dm.org/michaelzoidl/array-portal/dev-status.svg)](https://david-dm.org/michaelzoidl/babel-root-import#info=devDependencies)
