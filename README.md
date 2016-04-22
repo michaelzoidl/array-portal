@@ -16,7 +16,7 @@ $ npm install array-portal --save
 import ArrayPortal from 'array-portal';
 
 // Import with ES5
-var SwapArray = require('array-portal').default;
+var ArrayPortal = require('array-portal').default;
 
 ArrayPortal({
   caller: 'a'
@@ -76,7 +76,7 @@ ArrayPortal({
 
 ## Benchmark
 ```
-100,029 op/s
+110,029 op/s
 ```
 
 ## Contribute
