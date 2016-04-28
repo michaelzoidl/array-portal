@@ -35,13 +35,13 @@ ArrayPortal({
 ## One step further
 ```js
 // Sometimes you've an array with a lot of objects - so you cannot identify an item by its name
-const todos = [{ id: 1, text: 'Take out the trash'}, { id: 2, text: 'Wash the dishes' }];
+const todos = [{ todo_id: 1, text: 'Take out the trash'}, { todo_id: 2, text: 'Wash the dishes' }];
 const done = [];
 
-// But thats no problem... let's say you've taken out the trash (so the id: 1 todo)
+// But thats no problem... let's say you've taken out the trash (so the todo_id: 1)
 ArrayPortal({
   caller: {
-    id: 1
+    todo_id: 1
   },
   input: todos,
   output: done
