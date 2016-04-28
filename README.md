@@ -49,8 +49,8 @@ ArrayPortal({
 
 // The output you get is:
 {
-  input: [{ id: 2, text: 'Wash the dishes' }],
-  output: [{ id: 1, text: 'Take out the trash' }]
+  input: [{ todo_id: 2, text: 'Wash the dishes' }],
+  output: [{ todo_id: 1, text: 'Take out the trash' }]
 }
 ```
 
